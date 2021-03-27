@@ -1,16 +1,13 @@
 class TestaCondicional{
     public static void main(String[] args) {
         System.out.println("Testando condiconais");
-        int idade = 16;
-        String autorizacao = "sim";
+        int idade = 17;
+        Boolean autorizacao = true;
         
-        if(idade >= 18){
+        if(idade >= 18 || autorizacao){
             System.out.println("Você pode entrar!");
-        }
-        else if (autorizacao == "sim"){
-            System.out.println("você pode entrar, porque tem autorização.");
-        }  else {
+        } else {
             System.out.println("você não pode entrar, sinto muito!");
         }
     }
-}    
+}     
